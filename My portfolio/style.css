@@ -1,0 +1,123 @@
+/*
+I det här dokumentet hittar du all styling för det här projektet,
+i morgon ska vi lära oss att skriva CSS.
+*/
+
+/* Här är styling som gäller för hela sidan */
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, "sans serif";
+  color: #ff716cf5;
+  margin: 0;
+  background-color: whitesmoke
+}
+
+/* Här finns all styling för knappen */
+.button {
+  background-color: white;
+  color: #ff726c;
+  padding: 25px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Här är styling som gäller för alla rubriker och texter */
+h1 {
+  margin: 20px;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+
+/* Här är styling för about-me sektionen */
+.about-me {
+  background-color: #ff726c;
+  padding: 150px 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Här är styling för bilden som ligger i about-me sektionen */
+.about-me img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Här är styling för greatness sektionen */
+.greatness {
+  padding: 100px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Style for the project section*/
+.school-projects {
+  padding: 100px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Style for the project section*/
+.private-projects {
+  padding: 100px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+/*Style for button project*/
+.button-project {
+  background-color: #ff726c;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Här är styling för footern på sidan */
+footer {
+  background-color: #fbcfcd;
+  padding: 150px 300px;
+  align-content: center;
+}
+/* css
+.flex-parent{
+border: 2px white;
+height: 200px;
+display:flex;
+align-items: flex-start;
+}
+
+.flex-child{
+margin:5px;
+width: 100px;
+height:40px; 
+}*/
+
